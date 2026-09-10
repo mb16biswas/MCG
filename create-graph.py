@@ -116,8 +116,8 @@ Chunk_Size = args.f3
 Chunk_Overlap = args.f4
 similarity_threshold = args.f5
 is_sim_chunk = args.f6 
-base_path = "/workspace/data/Momojit/Contract-QA2/cuad-pdf"
-save_graph_path = "/workspace/data/Momojit/Graph-KD/save-graph3/"
+base_path = "/workspace/data/Contract-QA2/cuad-pdf"
+save_graph_path = "/workspace/data/Graph-KD/save-graph3/"
 PDFs = sorted(os.listdir(base_path))[20:]
 
 
