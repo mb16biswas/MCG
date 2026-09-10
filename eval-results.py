@@ -57,8 +57,8 @@ bertscore = load("bertscore")
 
 
 
-source = "/workspace/data/Momojit/Graph-KD/results/final-latest/"
-target = "/workspace/data/Momojit/Graph-KD/results/final-scores-updated-metrics-latest/"
+source = "/workspace/data/Graph-KD/results/final-latest/"
+target = "/workspace/data/Graph-KD/results/final-scores-updated-metrics-latest/"
 
 
 ARTICLES = re.compile(r"\b(a|an|the)\b", re.UNICODE)
