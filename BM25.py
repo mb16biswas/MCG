@@ -30,7 +30,7 @@ parser.add_argument('--f1', type=int, default=2,
                     help="Model choice: 1=Saul-7B, 2=Mistral-7B-v0.2, 3=Mistral-7B-v0.3, 4=Llama-3-8B, 5=Qwen2.5-7B, else=Llama-2-7B")
 parser.add_argument('--f2', type=int, default=2,
                     help="HF variant: 1=HuggingFaceEndpoint, 2=local pipeline")
-parser.add_argument('--token', type=str, default="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",
+parser.add_argument('--token', type=str, default="",
                     help="HuggingFace API token (required for HF endpoint or gated models)")
 parser.add_argument('--k', type=int, default=5, help="Top-k contexts to retrieve with BM25")
 parser.add_argument('--chunk_size', type=int, default=1000, help="Chunk size for text splitting")
@@ -43,7 +43,7 @@ if unknown_args:
 # -----------------------------
 # Configurations
 # -----------------------------
-API_URL = "http://10.81.0.36:8000/openai_service"
+API_URL = "http://XXX/openai_service"
 
 set_seed(42)
 
