@@ -47,8 +47,8 @@ API_URL = "http://10.81.0.36:8000/openai_service"
 
 set_seed(42)
 
-pdf_source = "/workspace/data/Momojit/Contract-QA2/cuad-pdf/"
-saved_path = "/workspace/data/Momojit/Graph-KD/results/sparse-final/"
+pdf_source = "/workspace/data/Contract-QA2/cuad-pdf/"
+saved_path = "/workspace/data/Graph-KD/results/sparse-final/"
 
 print()
 print("*" * 100)
