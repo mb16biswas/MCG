@@ -32,7 +32,7 @@ parser.add_argument('--mode', type=str, choices=['gpt4', 'hf'], default='hf', he
 parser.add_argument('--f1', type=int, default=2, help="Model choice: 1=Saul-7B, 2=Mistral-2-7B, 3=Mistral-3-7B, 4=Meta-Llama-3-8B, 5=llama-2-7b")
 parser.add_argument('--f2', type=int, default=2, help="Variant for HF Model")
 parser.add_argument('--f3', type=int, default=3, help="Graph Source")
-parser.add_argument('--token', type=str, default= "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", help="HuggingFace API token")
+parser.add_argument('--token', type=str, default= "", help="HuggingFace API token")
 args, unknown_args = parser.parse_known_args()
 
 if unknown_args:
@@ -41,7 +41,7 @@ if unknown_args:
 # -----------------------------
 # Configurations
 # -----------------------------
-API_URL = "http://10.81.0.36:8000/openai_service"
+API_URL = "http://XXX/openai_service"
 
 set_seed(42)
 
