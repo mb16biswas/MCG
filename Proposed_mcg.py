@@ -47,20 +47,20 @@ set_seed(42)
 
 if(args.f3 == 1): 
 
-    graph_source =  "/workspace/data/Momojit/Graph-KD/save-graph/"
-    saved_path = "/workspace/data/Momojit/Graph-KD/results/proposed-v1-final-v2/"
+    graph_source =  "/workspace/data/Graph-KD/save-graph/"
+    saved_path = "/workspace/data/Graph-KD/results/proposed-v1-final-v2/"
 
 elif(args.f3 == 2): 
     
-    graph_source =  "/workspace/data/Momojit/Graph-KD/save-graph2/"
-    saved_path = "/workspace/data/Momojit/Graph-KD/results/proposed-v2-final-v2/"
+    graph_source =  "/workspace/data/Graph-KD/save-graph2/"
+    saved_path = "/workspace/data/Graph-KD/results/proposed-v2-final-v2/"
 
 else: 
     
-    graph_source = "/workspace/data/Momojit/Graph-KD/save-graph4/"
-    saved_path = "/workspace/data/Momojit/Graph-KD/results/proposed-ca-final-v2/"
+    graph_source = "/workspace/data/Graph-KD/save-graph4/"
+    saved_path = "/workspace/data/Graph-KD/results/proposed-ca-final-v2/"
 
-# saved_path = "/workspace/data/Momojit/Graph-KD/results/proposed-v2/"
+# saved_path = "/workspace/data/Graph-KD/results/proposed-v2/"
 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
